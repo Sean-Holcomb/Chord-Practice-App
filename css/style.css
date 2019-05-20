@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background: radial-gradient(#111628, #0b0f1d);
+    font-family: 'Roboto Mono', Arial, sans-serif;
+}
+
+
+.blue {
+    color: deepskyblue;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: #4BB543;
+}
+
+
+#bpm {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    text-align: right;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    font-size: 5vh;
+}
+
+#instructions {
+    top: 10rem;
+    color: #fff;
+    text-align: center;
+    font-size: 5vh;
+    flex: 1 0 25%;
+    padding: 2em;
+}
+
+#sequence {
+    height: 20vh;
+    top: 20rem;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 15vh;
+    line-height: 20vh;
+    width: 100%;
+}
